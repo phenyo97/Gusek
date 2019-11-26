@@ -1,0 +1,45 @@
+Problem:    fesztival
+Rows:       8
+Columns:    5 (5 integer, 5 binary)
+Non-zeros:  28
+Status:     INTEGER OPTIMAL
+Objective:  festivalsWeGo = 2 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 MustSeeEach[d]
+                                   2             1               
+     2 MustSeeEach[m]
+                                   1             1               
+     3 MustSeeEach[e]
+                                   1             1               
+     4 MustSeeEach[l]
+                                   1             1               
+     5 MustSeeEach[i]
+                                   2             1               
+     6 MustSeeEach[v]
+                                   1             1               
+     7 MustSeeEach[im]
+                                   2             1               
+     8 festivalsWeGo
+                                   2                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 goto[rm]     *              0             0             1 
+     2 goto[sz]     *              1             0             1 
+     3 goto[v]      *              0             0             1 
+     4 goto[mf]     *              1             0             1 
+     5 goto[f]      *              0             0             1 
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

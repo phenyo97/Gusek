@@ -1,0 +1,465 @@
+Problem:    DJ3
+Rows:       126
+Columns:    110 (110 integer, 110 binary)
+Non-zeros:  586
+Status:     INTEGER OPTIMAL
+Objective:  BeerSell = 12 (MAXimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 PlayExatlyOneSong[1]
+                                   1             1             = 
+     2 PlayExatlyOneSong[2]
+                                   1             1             = 
+     3 PlayExatlyOneSong[3]
+                                   1             1             = 
+     4 PlayExatlyOneSong[4]
+                                   1             1             = 
+     5 PlayExatlyOneSong[5]
+                                   1             1             = 
+     6 ExactlyOneState[1,andi]
+                                   1             1             = 
+     7 ExactlyOneState[1,guszti]
+                                   1             1             = 
+     8 ExactlyOneState[1,patrik]
+                                   1             1             = 
+     9 ExactlyOneState[1,tina]
+                                   1             1             = 
+    10 ExactlyOneState[1,mate]
+                                   1             1             = 
+    11 ExactlyOneState[2,andi]
+                                   1             1             = 
+    12 ExactlyOneState[2,guszti]
+                                   1             1             = 
+    13 ExactlyOneState[2,patrik]
+                                   1             1             = 
+    14 ExactlyOneState[2,tina]
+                                   1             1             = 
+    15 ExactlyOneState[2,mate]
+                                   1             1             = 
+    16 ExactlyOneState[3,andi]
+                                   1             1             = 
+    17 ExactlyOneState[3,guszti]
+                                   1             1             = 
+    18 ExactlyOneState[3,patrik]
+                                   1             1             = 
+    19 ExactlyOneState[3,tina]
+                                   1             1             = 
+    20 ExactlyOneState[3,mate]
+                                   1             1             = 
+    21 ExactlyOneState[4,andi]
+                                   1             1             = 
+    22 ExactlyOneState[4,guszti]
+                                   1             1             = 
+    23 ExactlyOneState[4,patrik]
+                                   1             1             = 
+    24 ExactlyOneState[4,tina]
+                                   1             1             = 
+    25 ExactlyOneState[4,mate]
+                                   1             1             = 
+    26 ExactlyOneState[5,andi]
+                                   1             1             = 
+    27 ExactlyOneState[5,guszti]
+                                   1             1             = 
+    28 ExactlyOneState[5,patrik]
+                                   1             1             = 
+    29 ExactlyOneState[5,tina]
+                                   1             1             = 
+    30 ExactlyOneState[5,mate]
+                                   1             1             = 
+    31 NoLikeNoDance[andi,1]
+                                   1                           1 
+    32 NoLikeNoDance[andi,2]
+                                   1                           1 
+    33 NoLikeNoDance[andi,3]
+                                   1                           1 
+    34 NoLikeNoDance[andi,4]
+                                   1                           1 
+    35 NoLikeNoDance[andi,5]
+                                   1                           1 
+    36 NoLikeNoDance[guszti,1]
+                                   1                           1 
+    37 NoLikeNoDance[guszti,2]
+                                   1                           1 
+    38 NoLikeNoDance[guszti,3]
+                                   1                           1 
+    39 NoLikeNoDance[guszti,4]
+                                   1                           1 
+    40 NoLikeNoDance[guszti,5]
+                                   1                           1 
+    41 NoLikeNoDance[patrik,1]
+                                   1                           1 
+    42 NoLikeNoDance[patrik,2]
+                                   1                           1 
+    43 NoLikeNoDance[patrik,3]
+                                   1                           1 
+    44 NoLikeNoDance[patrik,4]
+                                   1                           1 
+    45 NoLikeNoDance[patrik,5]
+                                   1                           1 
+    46 NoLikeNoDance[tina,1]
+                                   1                           1 
+    47 NoLikeNoDance[tina,2]
+                                   1                           1 
+    48 NoLikeNoDance[tina,3]
+                                   1                           1 
+    49 NoLikeNoDance[tina,4]
+                                   1                           1 
+    50 NoLikeNoDance[tina,5]
+                                   1                           1 
+    51 NoLikeNoDance[mate,1]
+                                   1                           1 
+    52 NoLikeNoDance[mate,2]
+                                   1                           1 
+    53 NoLikeNoDance[mate,3]
+                                   1                           1 
+    54 NoLikeNoDance[mate,4]
+                                   1                           1 
+    55 NoLikeNoDance[mate,5]
+                                   1                           1 
+    56 NoLikeTwoGone[andi,2]
+                                  -1            -1               
+    57 NoLikeTwoGone[andi,3]
+                                  -1            -1               
+    58 NoLikeTwoGone[andi,4]
+                                  -1            -1               
+    59 NoLikeTwoGone[andi,5]
+                                  -1            -1               
+    60 NoLikeTwoGone[guszti,2]
+                                  -1            -1               
+    61 NoLikeTwoGone[guszti,3]
+                                  -1            -1               
+    62 NoLikeTwoGone[guszti,4]
+                                  -1            -1               
+    63 NoLikeTwoGone[guszti,5]
+                                  -1            -1               
+    64 NoLikeTwoGone[patrik,2]
+                                  -1            -1               
+    65 NoLikeTwoGone[patrik,3]
+                                  -1            -1               
+    66 NoLikeTwoGone[patrik,4]
+                                  -1            -1               
+    67 NoLikeTwoGone[patrik,5]
+                                  -1            -1               
+    68 NoLikeTwoGone[tina,2]
+                                  -1            -1               
+    69 NoLikeTwoGone[tina,3]
+                                  -1            -1               
+    70 NoLikeTwoGone[tina,4]
+                                  -1            -1               
+    71 NoLikeTwoGone[tina,5]
+                                  -1            -1               
+    72 NoLikeTwoGone[mate,2]
+                                  -1            -1               
+    73 NoLikeTwoGone[mate,3]
+                                  -1            -1               
+    74 NoLikeTwoGone[mate,4]
+                                  -1            -1               
+    75 NoLikeTwoGone[mate,5]
+                                  -1            -1               
+    76 WhenGoneNoBack[andi,2]
+                                   0            -0               
+    77 WhenGoneNoBack[andi,3]
+                                   0            -0               
+    78 WhenGoneNoBack[andi,4]
+                                   0            -0               
+    79 WhenGoneNoBack[andi,5]
+                                   0            -0               
+    80 WhenGoneNoBack[guszti,2]
+                                   0            -0               
+    81 WhenGoneNoBack[guszti,3]
+                                   0            -0               
+    82 WhenGoneNoBack[guszti,4]
+                                   0            -0               
+    83 WhenGoneNoBack[guszti,5]
+                                   0            -0               
+    84 WhenGoneNoBack[patrik,2]
+                                   0            -0               
+    85 WhenGoneNoBack[patrik,3]
+                                   0            -0               
+    86 WhenGoneNoBack[patrik,4]
+                                   0            -0               
+    87 WhenGoneNoBack[patrik,5]
+                                   0            -0               
+    88 WhenGoneNoBack[tina,2]
+                                   1            -0               
+    89 WhenGoneNoBack[tina,3]
+                                   0            -0               
+    90 WhenGoneNoBack[tina,4]
+                                   0            -0               
+    91 WhenGoneNoBack[tina,5]
+                                   0            -0               
+    92 WhenGoneNoBack[mate,2]
+                                   0            -0               
+    93 WhenGoneNoBack[mate,3]
+                                   0            -0               
+    94 WhenGoneNoBack[mate,4]
+                                   0            -0               
+    95 WhenGoneNoBack[mate,5]
+                                   0            -0               
+    96 WhenNoGoneButLike[andi,1]
+                                   0            -0               
+    97 WhenNoGoneButLike[andi,2]
+                                   0            -0               
+    98 WhenNoGoneButLike[andi,3]
+                                   0            -0               
+    99 WhenNoGoneButLike[andi,4]
+                                   0            -0               
+   100 WhenNoGoneButLike[andi,5]
+                                   0            -0               
+   101 WhenNoGoneButLike[guszti,1]
+                                   0            -0               
+   102 WhenNoGoneButLike[guszti,2]
+                                   0            -0               
+   103 WhenNoGoneButLike[guszti,3]
+                                   0            -0               
+   104 WhenNoGoneButLike[guszti,4]
+                                   0            -0               
+   105 WhenNoGoneButLike[guszti,5]
+                                   0            -0               
+   106 WhenNoGoneButLike[patrik,1]
+                                   0            -0               
+   107 WhenNoGoneButLike[patrik,2]
+                                   0            -0               
+   108 WhenNoGoneButLike[patrik,3]
+                                   0            -0               
+   109 WhenNoGoneButLike[patrik,4]
+                                   0            -0               
+   110 WhenNoGoneButLike[patrik,5]
+                                   0            -0               
+   111 WhenNoGoneButLike[tina,1]
+                                   0            -0               
+   112 WhenNoGoneButLike[tina,2]
+                                   1            -0               
+   113 WhenNoGoneButLike[tina,3]
+                                   1            -0               
+   114 WhenNoGoneButLike[tina,4]
+                                   1            -0               
+   115 WhenNoGoneButLike[tina,5]
+                                   1            -0               
+   116 WhenNoGoneButLike[mate,1]
+                                   0            -0               
+   117 WhenNoGoneButLike[mate,2]
+                                   0            -0               
+   118 WhenNoGoneButLike[mate,3]
+                                   0            -0               
+   119 WhenNoGoneButLike[mate,4]
+                                   0            -0               
+   120 WhenNoGoneButLike[mate,5]
+                                   0            -0               
+   121 NoGoneFirst[andi]
+                                   0            -0             = 
+   122 NoGoneFirst[guszti]
+                                   0            -0             = 
+   123 NoGoneFirst[patrik]
+                                   0            -0             = 
+   124 NoGoneFirst[tina]
+                                   0            -0             = 
+   125 NoGoneFirst[mate]
+                                   0            -0             = 
+   126 BeerSell                   12                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 play[freedom,1]
+                    *              0             0             1 
+     2 play[hell,1] *              0             0             1 
+     3 play[shipping,1]
+                    *              0             0             1 
+     4 play[its,1]  *              0             0             1 
+     5 play[whisky,1]
+                    *              0             0             1 
+     6 play[summer,1]
+                    *              0             0             1 
+     7 play[love,1] *              1             0             1 
+     8 play[freedom,2]
+                    *              0             0             1 
+     9 play[hell,2] *              1             0             1 
+    10 play[shipping,2]
+                    *              0             0             1 
+    11 play[its,2]  *              0             0             1 
+    12 play[whisky,2]
+                    *              0             0             1 
+    13 play[summer,2]
+                    *              0             0             1 
+    14 play[love,2] *              0             0             1 
+    15 play[freedom,3]
+                    *              0             0             1 
+    16 play[hell,3] *              0             0             1 
+    17 play[shipping,3]
+                    *              0             0             1 
+    18 play[its,3]  *              0             0             1 
+    19 play[whisky,3]
+                    *              0             0             1 
+    20 play[summer,3]
+                    *              0             0             1 
+    21 play[love,3] *              1             0             1 
+    22 play[freedom,4]
+                    *              0             0             1 
+    23 play[hell,4] *              1             0             1 
+    24 play[shipping,4]
+                    *              0             0             1 
+    25 play[its,4]  *              0             0             1 
+    26 play[whisky,4]
+                    *              0             0             1 
+    27 play[summer,4]
+                    *              0             0             1 
+    28 play[love,4] *              0             0             1 
+    29 play[freedom,5]
+                    *              0             0             1 
+    30 play[hell,5] *              0             0             1 
+    31 play[shipping,5]
+                    *              0             0             1 
+    32 play[its,5]  *              0             0             1 
+    33 play[whisky,5]
+                    *              0             0             1 
+    34 play[summer,5]
+                    *              0             0             1 
+    35 play[love,5] *              1             0             1 
+    36 dance[andi,1]
+                    *              0             0             1 
+    37 dance[guszti,1]
+                    *              1             0             1 
+    38 dance[patrik,1]
+                    *              0             0             1 
+    39 dance[tina,1]
+                    *              0             0             1 
+    40 dance[mate,1]
+                    *              0             0             1 
+    41 dance[andi,2]
+                    *              1             0             1 
+    42 dance[guszti,2]
+                    *              0             0             1 
+    43 dance[patrik,2]
+                    *              1             0             1 
+    44 dance[tina,2]
+                    *              0             0             1 
+    45 dance[mate,2]
+                    *              1             0             1 
+    46 dance[andi,3]
+                    *              0             0             1 
+    47 dance[guszti,3]
+                    *              1             0             1 
+    48 dance[patrik,3]
+                    *              0             0             1 
+    49 dance[tina,3]
+                    *              0             0             1 
+    50 dance[mate,3]
+                    *              0             0             1 
+    51 dance[andi,4]
+                    *              1             0             1 
+    52 dance[guszti,4]
+                    *              0             0             1 
+    53 dance[patrik,4]
+                    *              1             0             1 
+    54 dance[tina,4]
+                    *              0             0             1 
+    55 dance[mate,4]
+                    *              1             0             1 
+    56 dance[andi,5]
+                    *              0             0             1 
+    57 dance[guszti,5]
+                    *              1             0             1 
+    58 dance[patrik,5]
+                    *              0             0             1 
+    59 dance[tina,5]
+                    *              0             0             1 
+    60 dance[mate,5]
+                    *              0             0             1 
+    61 drink[andi,1]
+                    *              1             0             1 
+    62 drink[guszti,1]
+                    *              0             0             1 
+    63 drink[patrik,1]
+                    *              1             0             1 
+    64 drink[tina,1]
+                    *              1             0             1 
+    65 drink[mate,1]
+                    *              1             0             1 
+    66 drink[andi,2]
+                    *              0             0             1 
+    67 drink[guszti,2]
+                    *              1             0             1 
+    68 drink[patrik,2]
+                    *              0             0             1 
+    69 drink[tina,2]
+                    *              0             0             1 
+    70 drink[mate,2]
+                    *              0             0             1 
+    71 drink[andi,3]
+                    *              1             0             1 
+    72 drink[guszti,3]
+                    *              0             0             1 
+    73 drink[patrik,3]
+                    *              1             0             1 
+    74 drink[tina,3]
+                    *              0             0             1 
+    75 drink[mate,3]
+                    *              1             0             1 
+    76 drink[andi,4]
+                    *              0             0             1 
+    77 drink[guszti,4]
+                    *              1             0             1 
+    78 drink[patrik,4]
+                    *              0             0             1 
+    79 drink[tina,4]
+                    *              0             0             1 
+    80 drink[mate,4]
+                    *              0             0             1 
+    81 drink[andi,5]
+                    *              1             0             1 
+    82 drink[guszti,5]
+                    *              0             0             1 
+    83 drink[patrik,5]
+                    *              1             0             1 
+    84 drink[tina,5]
+                    *              0             0             1 
+    85 drink[mate,5]
+                    *              1             0             1 
+    86 gone[andi,1] *              0             0             1 
+    87 gone[guszti,1]
+                    *              0             0             1 
+    88 gone[patrik,1]
+                    *              0             0             1 
+    89 gone[tina,1] *              0             0             1 
+    90 gone[mate,1] *              0             0             1 
+    91 gone[andi,2] *              0             0             1 
+    92 gone[guszti,2]
+                    *              0             0             1 
+    93 gone[patrik,2]
+                    *              0             0             1 
+    94 gone[tina,2] *              1             0             1 
+    95 gone[mate,2] *              0             0             1 
+    96 gone[andi,3] *              0             0             1 
+    97 gone[guszti,3]
+                    *              0             0             1 
+    98 gone[patrik,3]
+                    *              0             0             1 
+    99 gone[tina,3] *              1             0             1 
+   100 gone[mate,3] *              0             0             1 
+   101 gone[andi,4] *              0             0             1 
+   102 gone[guszti,4]
+                    *              0             0             1 
+   103 gone[patrik,4]
+                    *              0             0             1 
+   104 gone[tina,4] *              1             0             1 
+   105 gone[mate,4] *              0             0             1 
+   106 gone[andi,5] *              0             0             1 
+   107 gone[guszti,5]
+                    *              0             0             1 
+   108 gone[patrik,5]
+                    *              0             0             1 
+   109 gone[tina,5] *              1             0             1 
+   110 gone[mate,5] *              0             0             1 
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

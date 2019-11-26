@@ -1,0 +1,232 @@
+Problem:    autovasarlasnyereseges
+Rows:       49
+Columns:    77 (30 integer, 0 binary)
+Non-zeros:  174
+Status:     INTEGER OPTIMAL
+Objective:  MoneyEarned = 421452.75 (MAXimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 InitBudget             200000        200000             = 
+     2 InitGarage[w]
+                                   0            -0             = 
+     3 InitGarage[l]
+                                   0            -0             = 
+     4 InitGarage[k]
+                                   0            -0             = 
+     5 InitGarage[t]
+                                   0            -0             = 
+     6 InitGarage[s]
+                                   0            -0             = 
+     7 InitBankBalance
+                                   0            -0             = 
+     8 BalanceChange[1]
+                                   0            -0             = 
+     9 BalanceChange[2]
+                                   0            -0             = 
+    10 BalanceChange[3]
+                                   0            -0             = 
+    11 BalanceChange[4]
+                                   0            -0             = 
+    12 BalanceChange[5]
+                                   0            -0             = 
+    13 BankBalanceChange[1]
+                                   0            -0             = 
+    14 BankBalanceChange[2]
+                                   0            -0             = 
+    15 BankBalanceChange[3]
+                                   0            -0             = 
+    16 BankBalanceChange[4]
+                                   0            -0             = 
+    17 BankBalanceChange[5]
+                                   0            -0             = 
+    18 NoLoansAtTheEnd
+                                   0            -0             = 
+    19 CarAvailability[1,w]
+                                   0            -0             = 
+    20 CarAvailability[1,l]
+                                   0            -0             = 
+    21 CarAvailability[1,k]
+                                   0            -0             = 
+    22 CarAvailability[1,t]
+                                   0            -0             = 
+    23 CarAvailability[1,s]
+                                   0            -0             = 
+    24 CarAvailability[2,w]
+                                   0            -0             = 
+    25 CarAvailability[2,l]
+                                   0            -0             = 
+    26 CarAvailability[2,k]
+                                   0            -0             = 
+    27 CarAvailability[2,t]
+                                   0            -0             = 
+    28 CarAvailability[2,s]
+                                   0            -0             = 
+    29 CarAvailability[3,w]
+                                   0            -0             = 
+    30 CarAvailability[3,l]
+                                   0            -0             = 
+    31 CarAvailability[3,k]
+                                   0            -0             = 
+    32 CarAvailability[3,t]
+                                   0            -0             = 
+    33 CarAvailability[3,s]
+                                   0            -0             = 
+    34 CarAvailability[4,w]
+                                   0            -0             = 
+    35 CarAvailability[4,l]
+                                   0            -0             = 
+    36 CarAvailability[4,k]
+                                   0            -0             = 
+    37 CarAvailability[4,t]
+                                   0            -0             = 
+    38 CarAvailability[4,s]
+                                   0            -0             = 
+    39 CarAvailability[5,w]
+                                   0            -0             = 
+    40 CarAvailability[5,l]
+                                   0            -0             = 
+    41 CarAvailability[5,k]
+                                   0            -0             = 
+    42 CarAvailability[5,t]
+                                   0            -0             = 
+    43 CarAvailability[5,s]
+                                   0            -0             = 
+    44 GarageLimitCantBeMore[1]
+                                   4                           4 
+    45 GarageLimitCantBeMore[2]
+                                   4                           4 
+    46 GarageLimitCantBeMore[3]
+                                   4                           4 
+    47 GarageLimitCantBeMore[4]
+                                   4                           4 
+    48 GarageLimitCantBeMore[5]
+                                   0                           4 
+    49 MoneyEarned            421453                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 buy[w,1]     *              0                             
+     2 buy[l,1]     *              4                             
+     3 buy[k,1]     *              0                             
+     4 buy[t,1]     *              0                             
+     5 buy[s,1]     *              0                             
+     6 buy[w,2]     *              0                             
+     7 buy[l,2]     *             -4                             
+     8 buy[k,2]     *              0                             
+     9 buy[t,2]     *              6                             
+    10 buy[s,2]     *              0                             
+    11 buy[w,3]     *              0                             
+    12 buy[l,3]     *              0                             
+    13 buy[k,3]     *              0                             
+    14 buy[t,3]     *             -6                             
+    15 buy[s,3]     *              6                             
+    16 buy[w,4]     *              0                             
+    17 buy[l,4]     *              0                             
+    18 buy[k,4]     *              0                             
+    19 buy[t,4]     *              6                             
+    20 buy[s,4]     *             -6                             
+    21 buy[w,5]     *              0                             
+    22 buy[l,5]     *              0                             
+    23 buy[k,5]     *              0                             
+    24 buy[t,5]     *             -6                             
+    25 buy[s,5]     *              0                             
+    26 budget[0]              200000             0               
+    27 budget[1]                   0             0               
+    28 budget[2]                   0             0               
+    29 budget[3]                   0             0               
+    30 budget[4]                   0             0               
+    31 budget[5]              421453             0               
+    32 caringarage[w,0]
+                                   0             0               
+    33 caringarage[l,0]
+                                   0             0               
+    34 caringarage[k,0]
+                                   0             0               
+    35 caringarage[t,0]
+                                   0             0               
+    36 caringarage[s,0]
+                                   0             0               
+    37 caringarage[w,1]
+                                   0             0               
+    38 caringarage[l,1]
+                                   4             0               
+    39 caringarage[k,1]
+                                   0             0               
+    40 caringarage[t,1]
+                                   0             0               
+    41 caringarage[s,1]
+                                   0             0               
+    42 caringarage[w,2]
+                                   0             0               
+    43 caringarage[l,2]
+                                   0             0               
+    44 caringarage[k,2]
+                                   0             0               
+    45 caringarage[t,2]
+                                   6             0               
+    46 caringarage[s,2]
+                                   0             0               
+    47 caringarage[w,3]
+                                   0             0               
+    48 caringarage[l,3]
+                                   0             0               
+    49 caringarage[k,3]
+                                   0             0               
+    50 caringarage[t,3]
+                                   0             0               
+    51 caringarage[s,3]
+                                   6             0               
+    52 caringarage[w,4]
+                                   0             0               
+    53 caringarage[l,4]
+                                   0             0               
+    54 caringarage[k,4]
+                                   0             0               
+    55 caringarage[t,4]
+                                   6             0               
+    56 caringarage[s,4]
+                                   0             0               
+    57 caringarage[w,5]
+                                   0             0               
+    58 caringarage[l,5]
+                                   0             0               
+    59 caringarage[k,5]
+                                   0             0               
+    60 caringarage[t,5]
+                                   0             0               
+    61 caringarage[s,5]
+                                   0             0               
+    62 loan[1]                     0                             
+    63 loan[2]                178000                             
+    64 loan[3]                 -4000                             
+    65 loan[4]                -22000                             
+    66 loan[5]               -178547                             
+    67 bankbal[0]                  0       -200000             0 
+    68 bankbal[1]                  0       -200000             0 
+    69 bankbal[2]            -178000       -200000             0 
+    70 bankbal[3]            -182900       -200000             0 
+    71 bankbal[4]            -170045       -200000             0 
+    72 bankbal[5]                  0       -200000             0 
+    73 rentgarage[1]
+                    *              0             0               
+    74 rentgarage[2]
+                    *              2             0               
+    75 rentgarage[3]
+                    *              2             0               
+    76 rentgarage[4]
+                    *              2             0               
+    77 rentgarage[5]
+                    *              0             0               
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 8.73e-11 on row 10
+        max.rel.err = 8.73e-11 on row 10
+        High quality
+
+End of output

@@ -1,0 +1,120 @@
+Problem:    autovasarlasnyereseges
+Rows:       36
+Columns:    25 (25 integer, 0 binary)
+Non-zeros:  250
+Status:     INTEGER OPTIMAL
+Objective:  MoneyEarned = 346000 (MAXimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 DontOverBuy[1]
+                             -200000       -200000               
+     2 DontOverBuy[2]
+                             -175000       -200000               
+     3 DontOverBuy[3]
+                             -169000       -200000               
+     4 DontOverBuy[4]
+                             -154000       -200000               
+     5 DontOverBuy[5]
+                              146000       -200000               
+     6 GarageLimitCantBeMore[1]
+                                   4                           4 
+     7 GarageLimitCantBeMore[2]
+                                   3                           4 
+     8 GarageLimitCantBeMore[3]
+                                   3                           4 
+     9 GarageLimitCantBeMore[4]
+                                   3                           4 
+    10 GarageLimitCantBeMore[5]
+                                   0                           4 
+    11 DontSellScam[1,w]
+                                   0            -0               
+    12 DontSellScam[1,l]
+                                   4            -0               
+    13 DontSellScam[1,k]
+                                   0            -0               
+    14 DontSellScam[1,t]
+                                   0            -0               
+    15 DontSellScam[1,s]
+                                   0            -0               
+    16 DontSellScam[2,w]
+                                   0            -0               
+    17 DontSellScam[2,l]
+                                   0            -0               
+    18 DontSellScam[2,k]
+                                   0            -0               
+    19 DontSellScam[2,t]
+                                   3            -0               
+    20 DontSellScam[2,s]
+                                   0            -0               
+    21 DontSellScam[3,w]
+                                   0            -0               
+    22 DontSellScam[3,l]
+                                   0            -0               
+    23 DontSellScam[3,k]
+                                   0            -0               
+    24 DontSellScam[3,t]
+                                   0            -0               
+    25 DontSellScam[3,s]
+                                   3            -0               
+    26 DontSellScam[4,w]
+                                   0            -0               
+    27 DontSellScam[4,l]
+                                   0            -0               
+    28 DontSellScam[4,k]
+                                   0            -0               
+    29 DontSellScam[4,t]
+                                   3            -0               
+    30 DontSellScam[4,s]
+                                   0            -0               
+    31 DontSellScam[5,w]
+                                   0            -0               
+    32 DontSellScam[5,l]
+                                   0            -0               
+    33 DontSellScam[5,k]
+                                   0            -0               
+    34 DontSellScam[5,t]
+                                   0            -0               
+    35 DontSellScam[5,s]
+                                   0            -0               
+    36 MoneyEarned            146000                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 buy[w,1]     *              0                             
+     2 buy[l,1]     *              4                             
+     3 buy[k,1]     *              0                             
+     4 buy[t,1]     *              0                             
+     5 buy[s,1]     *              0                             
+     6 buy[w,2]     *              0                             
+     7 buy[l,2]     *             -4                             
+     8 buy[k,2]     *              0                             
+     9 buy[t,2]     *              3                             
+    10 buy[s,2]     *              0                             
+    11 buy[w,3]     *              0                             
+    12 buy[l,3]     *              0                             
+    13 buy[k,3]     *              0                             
+    14 buy[t,3]     *             -3                             
+    15 buy[s,3]     *              3                             
+    16 buy[w,4]     *              0                             
+    17 buy[l,4]     *              0                             
+    18 buy[k,4]     *              0                             
+    19 buy[t,4]     *              3                             
+    20 buy[s,4]     *             -3                             
+    21 buy[w,5]     *              0                             
+    22 buy[l,5]     *              0                             
+    23 buy[k,5]     *              0                             
+    24 buy[t,5]     *             -3                             
+    25 buy[s,5]     *              0                             
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output
