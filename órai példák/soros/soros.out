@@ -1,0 +1,53 @@
+Problem:    soros
+Rows:       5
+Columns:    16
+Non-zeros:  30
+Status:     OPTIMAL
+Objective:  koltseg = 817 (MINimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 matek        NL           519           519                           1 
+     2 szgm         NL           129           129                           2 
+     3 prog         NL            40            40                           1 
+     4 tesi         NL          11.5          11.5                       < eps
+     5 koltseg      B            817                             
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 xtm          NL             0             0                         499 
+     2 xtsz         NL             0             0                          18 
+     3 xtp          NL             0             0                          29 
+     4 xtt          B           11.5             0               
+     5 xpm          NL             0             0                           9 
+     6 xpsz         NL             0             0                          98 
+     7 xpp          B             40             0               
+     8 xpt          NL             0             0                         6.5 
+     9 xim          B            519             0               
+    10 xisz         B            129             0               
+    11 xip          NL             0             0                           2 
+    12 xit          NL             0             0                       < eps
+    13 xbm          NL             0             0                           4 
+    14 xbsz         NL             0             0                           4 
+    15 xbp          NL             0             0                           6 
+    16 xbt          NL             0             0                           8 
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 0.00e+00 on column 0
+        max.rel.err = 0.00e+00 on column 0
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

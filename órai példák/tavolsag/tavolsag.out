@@ -1,0 +1,39 @@
+Problem:    tavolsag
+Rows:       3
+Columns:    3
+Non-zeros:  9
+Status:     OPTIMAL
+Objective:  Koltseg = 99870.68966 (MINimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 GyorbeKolts  NS         57400         57400             =       1.85345 
+     2 SzombathelyKolts
+                    NS         43200         43200             =     -0.150862 
+     3 Koltseg      B        99870.7                             
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 xK           B        69.1379             0               
+     2 xS           B        642.759             0               
+     3 xV           NL             0             0                     74.3534 
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 7.28e-12 on row 2
+        max.rel.err = 8.42e-17 on row 2
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 2.84e-14 on column 2
+        max.rel.err = 9.52e-17 on column 1
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

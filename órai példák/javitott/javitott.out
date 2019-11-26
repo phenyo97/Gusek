@@ -1,0 +1,46 @@
+Problem:    javitott
+Rows:       6
+Columns:    6
+Non-zeros:  18
+Status:     OPTIMAL
+Objective:  Osszkoltseg = 18000 (MINimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 PiacIgeny[GY]
+                    NL           200           200                          80 
+     2 PiacIgeny[SZ]
+                    NL           100           100                          40 
+     3 FarmKapac[V] B            150                         150 
+     4 FarmKapac[K] NU            50                          50           -40 
+     5 FarmKapac[S] B            100                         100 
+     6 Osszkoltseg  B          18000                             
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 X[V,GY]      B            150             0               
+     2 X[K,GY]      B             50             0               
+     3 X[S,GY]      NL             0             0                          40 
+     4 X[V,SZ]      NL             0             0                         120 
+     5 X[K,SZ]      NL             0             0                         190 
+     6 X[S,SZ]      B            100             0               
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 0.00e+00 on column 0
+        max.rel.err = 0.00e+00 on column 0
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

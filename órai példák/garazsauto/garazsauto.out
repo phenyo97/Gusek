@@ -1,0 +1,115 @@
+Problem:    garazsauto
+Rows:       31
+Columns:    25 (25 integer, 0 binary)
+Non-zeros:  175
+Status:     INTEGER OPTIMAL
+Objective:  EndMoney = 66 (MAXimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 DontOverBuy[1]
+                                 -24           -30               
+     2 DontOverBuy[2]
+                                 -29           -30               
+     3 DontOverBuy[3]
+                                 -27           -30               
+     4 DontOverBuy[4]
+                                 -28           -30               
+     5 DontOverBuy[5]
+                                  36           -30               
+     6 DontSellScam[audi,1]
+                                   0            -0               
+     7 DontSellScam[audi,2]
+                                   0            -0               
+     8 DontSellScam[audi,3]
+                                   0            -0               
+     9 DontSellScam[audi,4]
+                                   8            -0               
+    10 DontSellScam[audi,5]
+                                   0            -0               
+    11 DontSellScam[subaru,1]
+                                   3            -0               
+    12 DontSellScam[subaru,2]
+                                   0            -0               
+    13 DontSellScam[subaru,3]
+                                   5            -0               
+    14 DontSellScam[subaru,4]
+                                   0            -0               
+    15 DontSellScam[subaru,5]
+                                   0            -0               
+    16 DontSellScam[ford,1]
+                                   0            -0               
+    17 DontSellScam[ford,2]
+                                   0            -0               
+    18 DontSellScam[ford,3]
+                                   0            -0               
+    19 DontSellScam[ford,4]
+                                   0            -0               
+    20 DontSellScam[ford,5]
+                                   0            -0               
+    21 DontSellScam[skoda,1]
+                                   0            -0               
+    22 DontSellScam[skoda,2]
+                                   4            -0               
+    23 DontSellScam[skoda,3]
+                                   0            -0               
+    24 DontSellScam[skoda,4]
+                                   0            -0               
+    25 DontSellScam[skoda,5]
+                                   0            -0               
+    26 DontSellScam[honda,1]
+                                   0            -0               
+    27 DontSellScam[honda,2]
+                                   0            -0               
+    28 DontSellScam[honda,3]
+                                   0            -0               
+    29 DontSellScam[honda,4]
+                                   0            -0               
+    30 DontSellScam[honda,5]
+                                   0            -0               
+    31 EndMoney                   36                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 buy[audi,1]  *              0                             
+     2 buy[subaru,1]
+                    *              3                             
+     3 buy[ford,1]  *              0                             
+     4 buy[skoda,1] *              0                             
+     5 buy[honda,1] *              0                             
+     6 buy[audi,2]  *              0                             
+     7 buy[subaru,2]
+                    *             -3                             
+     8 buy[ford,2]  *              0                             
+     9 buy[skoda,2] *              4                             
+    10 buy[honda,2] *              0                             
+    11 buy[audi,3]  *              0                             
+    12 buy[subaru,3]
+                    *              5                             
+    13 buy[ford,3]  *              0                             
+    14 buy[skoda,3] *             -4                             
+    15 buy[honda,3] *              0                             
+    16 buy[audi,4]  *              8                             
+    17 buy[subaru,4]
+                    *             -5                             
+    18 buy[ford,4]  *              0                             
+    19 buy[skoda,4] *              0                             
+    20 buy[honda,4] *              0                             
+    21 buy[audi,5]  *             -8                             
+    22 buy[subaru,5]
+                    *              0                             
+    23 buy[ford,5]  *              0                             
+    24 buy[skoda,5] *              0                             
+    25 buy[honda,5] *              0                             
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

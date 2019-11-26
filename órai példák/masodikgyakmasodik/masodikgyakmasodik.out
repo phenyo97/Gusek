@@ -1,0 +1,56 @@
+Problem:    masodikgyakmasodik
+Rows:       12
+Columns:    12
+Non-zeros:  36
+Status:     OPTIMAL
+Objective:  Koltseg = 44000 (MINimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 Komarom      NU           100                         100           -80 
+     2 Veszprem     B            150                         200 
+     3 Sarvar       B            150                         150 
+     4 Gyor         NL           250           250                         160 
+     5 Szombathely  NL           150           150                          80 
+     6 KomGyor      NU             0                          -0           -40 
+     7 VeszGyor     NU             0                          -0           -80 
+     8 SarGyor      NU             0                          -0          -150 
+     9 KomSzom      NU             0                          -0          -180 
+    10 VeszSzom     NU             0                          -0          -120 
+    11 SarSzom      NU             0                          -0           -40 
+    12 Koltseg      B          44000                             
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 xkgy         B            100             0               
+     2 xvgy         B            150             0               
+     3 xsgy         NL             0             0                         140 
+     4 xksz         NL             0             0                         360 
+     5 xvsz         NL             0             0                         160 
+     6 xssz         B            150             0               
+     7 fkgy         B              5             0               
+     8 fvgy         B            7.5             0               
+     9 fsgy         B              0             0               
+    10 fksz         B              0             0               
+    11 fvsz         B              0             0               
+    12 fssz         B            7.5             0               
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 0.00e+00 on column 0
+        max.rel.err = 0.00e+00 on column 0
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output
