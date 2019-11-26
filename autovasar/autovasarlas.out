@@ -1,0 +1,70 @@
+Problem:    autovasarlas
+Rows:       11
+Columns:    25 (25 integer, 25 binary)
+Non-zeros:  75
+Status:     INTEGER OPTIMAL
+Objective:  TotalCost = 273000 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 OneCarEachDay[h]
+                                   1             1             = 
+     2 OneCarEachDay[k]
+                                   1             1             = 
+     3 OneCarEachDay[sz]
+                                   1             1             = 
+     4 OneCarEachDay[cs]
+                                   1             1             = 
+     5 OneCarEachDay[p]
+                                   1             1             = 
+     6 EachCarOnce[w]
+                                   1             1             = 
+     7 EachCarOnce[l]
+                                   1             1             = 
+     8 EachCarOnce[k]
+                                   1             1             = 
+     9 EachCarOnce[t]
+                                   1             1             = 
+    10 EachCarOnce[s]
+                                   1             1             = 
+    11 TotalCost              273000                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 buy[w,h]     *              0             0             1 
+     2 buy[l,h]     *              0             0             1 
+     3 buy[k,h]     *              0             0             1 
+     4 buy[t,h]     *              0             0             1 
+     5 buy[s,h]     *              1             0             1 
+     6 buy[w,k]     *              0             0             1 
+     7 buy[l,k]     *              0             0             1 
+     8 buy[k,k]     *              0             0             1 
+     9 buy[t,k]     *              1             0             1 
+    10 buy[s,k]     *              0             0             1 
+    11 buy[w,sz]    *              1             0             1 
+    12 buy[l,sz]    *              0             0             1 
+    13 buy[k,sz]    *              0             0             1 
+    14 buy[t,sz]    *              0             0             1 
+    15 buy[s,sz]    *              0             0             1 
+    16 buy[w,cs]    *              0             0             1 
+    17 buy[l,cs]    *              0             0             1 
+    18 buy[k,cs]    *              1             0             1 
+    19 buy[t,cs]    *              0             0             1 
+    20 buy[s,cs]    *              0             0             1 
+    21 buy[w,p]     *              0             0             1 
+    22 buy[l,p]     *              1             0             1 
+    23 buy[k,p]     *              0             0             1 
+    24 buy[t,p]     *              0             0             1 
+    25 buy[s,p]     *              0             0             1 
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output
