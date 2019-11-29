@@ -1,0 +1,31 @@
+Problem:    asd
+Rows:       3
+Columns:    4 (4 integer, 0 binary)
+Non-zeros:  12
+Status:     INTEGER OPTIMAL
+Objective:  Profit = 21500 (MAXimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 SzodaKorlat               150                         150 
+     2 BorKorlat                 100                         100 
+     3 Profit                  21500                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 Keveres[HL]  *             50             0               
+     2 Keveres[KF]  *             50             0               
+     3 Keveres[NF]  *              0             0               
+     4 Keveres[HM]  *              0             0               
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output
